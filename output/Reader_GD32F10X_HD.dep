@@ -1,0 +1,1397 @@
+Dependencies for Project 'Reader', Target 'GD32F10X_HD': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\src\gd32f10x_it.c)(0x636653E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_it.o -MD)
+I (include\gd32f10x_it.h)(0x636653DE)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\main.h)(0x6367937B)
+I (include\systick.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\class\device\cdc\Include\cdc_acm_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (include\usbd_conf.h)(0x636653DE)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_int.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_pwr.h)(0x636653D9)
+F (.\src\main.c)(0x63679725)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/main.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6252B536)
+I (include\main.h)(0x6367937B)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\systick.h)(0x636653DE)
+I (Firmware\GD32F10x_usbd_library\class\device\cdc\Include\cdc_acm_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (include\usbd_conf.h)(0x636653DE)
+I (lib\LCD\include\lcd.h)(0x636653E1)
+I (lib\KEYBOARD\include\keyboard.h)(0x636653E1)
+I (lib\EEPROM\include\at24cxx.h)(0x63679692)
+I (lib\RFID\include\fm1702.h)(0x63679692)
+I (lib\RFID\include\spi_fm1702.h)(0x636653E1)
+F (.\include\board_conf.h)(0x63679708)()
+F (.\include\main.h)(0x6367937B)()
+F (.\Firmware\GD32F10x_usbd_library\usbd\Source\usbd_lld_core.c)(0x636653D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_lld_core.o -MD)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_regs.h)(0x636653D9)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+F (.\Firmware\GD32F10x_usbd_library\usbd\Source\usbd_lld_int.c)(0x636653D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_lld_int.o -MD)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_int.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_pwr.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_regs.h)(0x636653D9)
+F (.\Firmware\GD32F10x_usbd_library\device\Source\usbd_core.c)(0x636653DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_core.o -MD)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_transc.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\usbd\Include\usbd_lld_regs.h)(0x636653D9)
+F (.\Firmware\GD32F10x_usbd_library\device\Source\usbd_enum.c)(0x636653DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_enum.o -MD)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_transc.h)(0x636653D9)
+F (.\Firmware\GD32F10x_usbd_library\device\Source\usbd_pwr.c)(0x636653DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_pwr.o -MD)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_pwr.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+F (.\Firmware\GD32F10x_usbd_library\device\Source\usbd_transc.c)(0x636653DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/usbd_transc.o -MD)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_transc.h)(0x636653D9)
+F (.\Firmware\GD32F10x_usbd_library\class\device\cdc\Source\cdc_acm_core.c)(0x636653D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/cdc_acm_core.o -MD)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_transc.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usb_ch9_std.h)(0x636653D9)
+I (include\usb_conf.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\GD32F10x_usbd_library\class\device\cdc\Include\cdc_acm_core.h)(0x636653D9)
+I (Firmware\GD32F10x_usbd_library\device\Include\usbd_enum.h)(0x636653D9)
+F (.\Firmware\CMSIS\GD\GD32F10x\Source\system_gd32f10x.c)(0x636653DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/system_gd32f10x.o -MD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_adc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_adc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_bkp.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_bkp.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_can.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_can.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_crc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_crc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dac.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_dac.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dbg.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_dbg.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dma.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_dma.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_enet.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_enet.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_exmc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_exmc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_exti.c)(0x636653DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_exti.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_fmc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_fmc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_fwdgt.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_fwdgt.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_gpio.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_gpio.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_i2c.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_i2c.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_misc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_misc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_pmu.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_pmu.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_rcu.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_rcu.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_rtc.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_rtc.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_sdio.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_sdio.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_spi.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_spi.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_timer.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_timer.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_usart.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_usart.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_wwdgt.c)(0x636653DD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_wwdgt.o -MD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\Firmware\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_hd.s)(0x636653DA)(--cpu Cortex-M3 --pd "__MICROLIB SETA 1"-IC:\Users\admin\AppData\Local\Arm\Packs\GigaDevice\GD32F10x_DFP\2.0.3\Device\Include--pd "__UVISION_VERSION SETA 537"--pd "GD32F10X_HD SETA 1"--pd "USE_STDPERIPH_DRIVER SETA 1"--list .\list\startup_gd32f10x_hd.lst--xref -o .\output\startup_gd32f10x_hd.o--depend .\output\startup_gd32f10x_hd.d)
+F (.\lib\LCD\include\lcd.h)(0x636653E1)()
+F (.\lib\LCD\src\lcd.c)(0x63679692)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/lcd.o -MD)
+I (lib\LCD\include\lcd.h)(0x636653E1)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (.\lib\KEYBOARD\include\keyboard.h)(0x636653E1)()
+F (.\lib\KEYBOARD\src\keyboard.c)(0x63666065)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/keyboard.o -MD)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (lib\KEYBOARD\include\keyboard.h)(0x636653E1)
+I (lib\LCD\include\lcd.h)(0x636653E1)
+I (include\main.h)(0x6367937B)
+F (.\lib\RFID\include\fm1702.h)(0x63679692)()
+F (.\lib\RFID\src\fm1702.c)(0x63679692)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/fm1702.o -MD)
+I (lib\RFID\include\fm1702.h)(0x63679692)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (lib\RFID\include\spi_fm1702.h)(0x636653E1)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6252B536)
+F (.\lib\RFID\src\spi_fm1702.c)(0x636653E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/spi_fm1702.o -MD)
+I (lib\RFID\include\fm1702.h)(0x63679692)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (lib\RFID\include\spi_fm1702.h)(0x636653E1)
+F (.\lib\RFID\include\spi_fm1702.h)(0x636653E1)()
+F (.\lib\EEPROM\include\at24cxx.h)(0x63679692)()
+F (.\lib\EEPROM\src\at24cxx.c)(0x63679692)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/at24cxx.o -MD)
+I (lib\EEPROM\include\at24cxx.h)(0x63679692)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6252B536)
+I (include\main.h)(0x6367937B)
+F (.\src\gd32f10x_usbd_hw.c)(0x636653E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/gd32f10x_usbd_hw.o -MD)
+I (include\usbd_hw.h)(0x636653DE)
+I (include\usbd_conf.h)(0x636653DE)
+I (include\board_conf.h)(0x63679708)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (..\Reader\include\usbd_hw.h)(0x636653DE)()
+F (..\Reader\include\usb_conf.h)(0x636653DE)()
+F (..\Reader\include\usbd_conf.h)(0x636653DE)()
+F (.\src\systick.c)(0x636653E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -O1 -ffunction-sections -w -I ./include -I ./lib/RFID/include -I ./lib/LCD/include -I ./lib/KEYBOARD/include -I ./lib/EEPROM/include -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F10x/Include -I ./Firmware/GD32F10x_standard_peripheral/Include -I ./Firmware/GD32F10x_usbd_library/usbd/Include -I ./Firmware/GD32F10x_usbd_library/device/Include -I ./Firmware/GD32F10x_usbd_library/class/device/cdc/Include -I ../../../../Utilities-IC:/Users/admin/AppData/Local/Arm/Packs/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include-D__UVISION_VERSION="537" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD-o ./output/systick.o -MD)
+I (include\systick.h)(0x636653DE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x636653DA)
+I (Firmware\CMSIS\core_cm3.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmInstr.h)(0x636653DA)
+I (Firmware\CMSIS\core_cmFunc.h)(0x636653DA)
+I (Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x636653DA)
+I (include\gd32f10x_libopt.h)(0x636653DE)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x636653DC)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x636653DD)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x636653DC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6252B536)
+I (Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x636653DC)
+F (..\Reader\include\systick.h)(0x636653DE)()
